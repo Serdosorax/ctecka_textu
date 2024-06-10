@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Čtečka textových souborů</title>
+    <style> </style>
+</head>
+<body>
+    <h1>Nahrát textový soubor</h1>
+    <input type="file" id="fileInput" accept=".txt">
+    <button onclick="loadFile()">Nahrát</button>
+
+    <div id="result">
+        <h2>Obsah souboru:</h2>
+        <pre id="fileContent"></pre>
+        <h2>Počet slov:</h2>
+        <p id="wordCount"></p>
+        <h2>Vyhledávání slova:</h2>
+        <input type="text" id="searchWord" placeholder="Zadejte slovo">
+        <button onclick="searchWord()">Vyhledat</button>
+        <p id="searchResult"></p>
+    </div>
+
+    <script>    </script>
+</body>
+</html>
